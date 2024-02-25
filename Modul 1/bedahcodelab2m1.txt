@@ -1,0 +1,22 @@
+Poin-poin penting dalam program ini adalah:
+
+Variabel apples dan bananas digunakan untuk menyimpan jumlah apel dan pisang yang akan dibeli.
+Variabel orangePrice dan bananaPrice digunakan untuk menyimpan harga per buah jeruk dan pisang.
+Variabel currency digunakan untuk menyimpan simbol mata uang, dalam hal ini, simbol dolar ($).
+Variabel totalCost digunakan untuk menghitung biaya total berdasarkan jumlah dan harga buah-buahan.
+Fungsi printf digunakan untuk mencetak informasi jumlah buah, harga per buah, dan total biaya ke layar dengan format yang sesuai. %d digunakan untuk mencetak variabel bertipe int, %f digunakan untuk mencetak variabel bertipe float, dan %c digunakan untuk mencetak variabel bertipe char. %.2f digunakan untuk membatasi angka desimal hingga dua digit.
+Program ini akan menghasilkan output yang mencetak jumlah apel, jumlah pisang, harga per buah jeruk dan pisang, serta total biaya pembelian.
+
+
+Ada beberapa kesalahan dalam kode C yang Anda berikan:
+
+1. Komentar yang tidak lengkap:
+   - Kode `# <stdio.h>` seharusnya adalah `#include <stdio.h>` untuk menggabungkan file header yang benar.
+   - Pada bagian `printf`, Anda tidak memberikan nilai yang akan dicetak.
+
+2. Variabel yang tidak dideklarasikan dengan tipe data:
+   - Variabel `apples`, `bananas`, `orangePrice`, `bananaPrice`, dan `currency` harus dideklarasikan dengan tipe datanya sebelum digunakan. Contoh: `int apples = 5;` untuk mendeklarasikan dan menginisialisasi variabel `apples` dengan nilai 5.
+
+3. Typo dalam penggunaan variabel:
+   - Anda menuliskan `bananPrice` daripada `bananaPrice` dalam perhitungan `totalCost`.
+   - Pada `printf` terakhir, Anda menuliskan `curecny` daripada `currency`.

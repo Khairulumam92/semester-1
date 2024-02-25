@@ -1,0 +1,3 @@
+integer "int" digunakan untuk bilangan bulat "90", sedangkan "float" digunakan untuk bilangan desimal "9.5". int bisa digunakan untuk juga pada bilangan desimal, akan tetapi hanya angka pertama yang akan ditampilkan, misalkan "9.5"
+
+
